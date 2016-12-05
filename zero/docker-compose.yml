@@ -1,0 +1,10 @@
+---
+version: '2'
+
+services:
+  Chef:
+    image: "iidlx/zero"
+    privileged: true
+    network_mode: host
+    volumes:
+      - "./key:/etc/chef"
