@@ -1,7 +1,7 @@
 # Chef Zero
 #
 # VERSION 3.0.1
-FROM ruby:2.2
+FROM iidlx/ruby:2.2
 MAINTAINER DLX
 
 COPY . /home/chef
